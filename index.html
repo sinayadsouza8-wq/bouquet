@@ -1,1 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You 💐</title>
+  <style>
+    body {
+      background: #fff7fb;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      color: #c2185b;
+      margin-bottom: 20px;
+    }
+
+    .bouquet {
+      display: flex;
+      gap: 30px;
+      margin: 30px 0;
+    }
+
+    .flower {
+      position: relative;
+      width: 60px;
+      height: 60px;
+    }
+
+    .petal {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background: #ffb6c1;
+      border-radius: 50%;
+    }
+
+    .petal:nth-child(1) { top: 0; left: 15px; }
+    .petal:nth-child(2) { top: 15px; left: 0; }
+    .petal:nth-child(3) { top: 15px; right: 0; }
+    .petal:nth-child(4) { bottom: 0; left: 15px; }
+
+    .center {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 20px;
+      height: 20px;
+      background: gold;
+      border-radius: 50%;
+    }
+
+    .stem {
+      width: 6px;
+      height: 80px;
+      background: #4caf50;
+      margin: 0 auto;
+    }
+
+    .note {
+      max-width: 400px;
+      font-size: 18px;
+      color: #444;
+      margin-top: 20px;
+      line-height: 1.5;
+    }
+
+    .signature {
+      margin-top: 15px;
+      font-style: italic;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>I made these for you 💐</h1>
+
+  <div class="bouquet">
+    <div>
+      <div class="flower">
+        <div class="petal"></div><div class="petal"></div>
+        <div class="petal"></div><div class="petal"></div>
+        <div class="center"></div>
+      </div>
+      <div class="stem"></div>
+    </div>
+
+    <div>
+      <div class="flower">
+        <div class="petal"></div><div class="petal"></div>
+        <div class="petal"></div><div class="petal"></div>
+        <div class="center"></div>
+      </div>
+      <div class="stem"></div>
+    </div>
+
+    <div>
+      <div class="flower">
+        <div class="petal"></div><div class="petal"></div>
+        <div class="petal"></div><div class="petal"></div>
+        <div class="center"></div>
+      </div>
+      <div class="stem"></div>
+    </div>
+  </div>
+
+  <div class="note">
+    Until I can give you real flowers,<br>
+    I wanted to give you something made with my hands.<br>
+    I miss you more than you know 🤍
+  </div>
+
+  <div class="signature">
+    — always yours
+  </div>
+
+</body>
+</html>
 
